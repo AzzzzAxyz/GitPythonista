@@ -40,7 +40,7 @@ class keys_IOB (object):
 		
 		self.key_lst=[
 			self.income,self.outcome,
-			self.sum,self.balance]
+			self.sumio,self.balance]
 
 class IOB (object):
 	def __init__(self,lst):
