@@ -52,11 +52,13 @@ def load_kabukadata(code):
 	return kdt
 
 def _shiftStart(xD,n):
-	retD=xaShift.xD_Key_shiftA_byNum(xD,kk.start,n)
+	#retD=xaShift.xD_Key_shiftA_byNum(xD,kk.start,n)
+	retD=xaShift.byxd_key_num(xD,kk.start,n)
 	return retD
 
 def _a_divsub_b(xD,keya,keyb):
-	retD=xcDivSub.xD_aK_divisub_bK(xD,keya,keyb)
+	#retD=xcDivSub.xD_aK_divisub_bK(xD,keya,keyb)
+	retD=xcDivSub.byxd_keya_keyb(xD,keya,keyb)
 	return retD
 
 class keys_This (object):
@@ -97,6 +99,7 @@ def _hantei_Dn(xd,sikiti):
 
 
 def _TF_byxd_sikitiUD(xd,sikitiUp,sikitiDn):
+	pass
 	
 
 
